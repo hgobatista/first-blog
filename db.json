@@ -19,7 +19,7 @@
       "date": "Aug 3, 2020"
     },
     {
-      "id": 3,
+      "id": 4,
       "category": "Cinema",
       "title": "Os 10 filmes com maior bilheteria",
       "resume": "Lorem ipsum3",
@@ -36,13 +36,13 @@
       "password": "4s8d11d"
     },
     {
-      "id": 3,
+      "id": 2,
       "name": "Liandra Ott",
       "login": "liaott",
       "password": "au8t11d9"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "Alessandra Modesto Silva",
       "login": "alemodesto",
       "password": "1a6sd5das"
