@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "category": "Tecnologia",
+      "title": "O guia definitivo do Blog",
+      "resume": "Lorem ipsum",
+      "description": "Lorem Ipsum1 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "author": "Fulano de Tal",
+      "date": "Aug 2, 2020"
+    },
+    {
+      "id": 2,
+      "category": "Fotografia",
+      "title": "Quais as melhores câmeras em 2022",
+      "resume": "Lorem ipsum2",
+      "description": "Lorem Ipsum2 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "author": "Ciclano de Tal",
+      "date": "Aug 3, 2020"
+    },
+    {
+      "id": 3,
+      "category": "Cinema",
+      "title": "Os 10 filmes com maior bilheteria",
+      "resume": "Lorem ipsum3",
+      "description": "Lorem Ipsum3 is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "author": "Beltrano de Tal",
+      "date": "Aug 4, 2020"
+    }
+  ]
+}
