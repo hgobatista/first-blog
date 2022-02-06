@@ -1,3 +1,6 @@
+
+
+
 const Post = (props) => {
   return (
     <div className="post mx-2">
@@ -11,10 +14,10 @@ const Post = (props) => {
         <div className="img-profile"></div>
         <div className="description-profile ml-2">
           <h6 className="color-blue">
-            Fulano de tal
+            {props.author}
           </h6>
           <p>
-            Aug 2, 2020 - 8min read
+            {props.date}
           </p>
         </div>
       </div>

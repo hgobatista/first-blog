@@ -1,7 +1,40 @@
-import Article from "./components/Artigos";
+import api from "../../services/api";
+import Post from "../../components/Posts";
+import {useState, useEffect} from "react";
 
 const Main = () => {
-  return <h1>Main.js</h1>;
+  const [post, setPost] = useState([]);
+
+  useEffect(() => {
+    api.get('/posts')
+    .then((response) =>{
+      setPost(response.data);
+    })
+  }, [])
+
+  return (
+    <>
+      <section className="container">
+        <h1 className="mt-3">Articles</h1>
+        <div className="mt-5 container-posts">
+          {post.map((post) => {
+            return (
+              <>
+                <Post 
+                key={post.id} 
+                subtitle={post.category} 
+                title={post.title}
+                author={post.author}
+                date={post.date}>
+                  {post.resume}
+                </Post>
+              </>
+            );
+          })}
+        </div>
+      </section>
+    </>
+  );
 };
 
 export default Main;
