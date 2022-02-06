@@ -1,11 +1,10 @@
 import Header from "./components/Header";
-import Article from "./components/Artigos";
+import Main from "./pages/Main"
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <Article></Article>
+      <Header />
     </>
   );
 }
