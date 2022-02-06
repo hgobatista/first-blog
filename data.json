@@ -27,5 +27,25 @@
       "author": "Beltrano de Tal",
       "date": "Aug 4, 2020"
     }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Fabio Assunção",
+      "login": "fabioass",
+      "password": "4s8d11d"
+    },
+    {
+      "id": 3,
+      "name": "Liandra Ott",
+      "login": "liaott",
+      "password": "au8t11d9"
+    },
+    {
+      "id": 1,
+      "name": "Alessandra Modesto Silva",
+      "login": "alemodesto",
+      "password": "1a6sd5das"
+    }
   ]
 }
